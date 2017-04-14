@@ -9,25 +9,28 @@
 </head>
 <body>
   <nav ng-controller='NavbarController'>
-    <ul>
-      <li ng-hide='isLoggedIn()'>
+
+   <div id="navbox">
+      <div ng-hide='isLoggedIn()'>
         <a href="#!/login">Login</a>
-      </li>
-      <li ng-hide='isLoggedIn()'>
+      </div>
+      <div ng-hide='isLoggedIn()'>
         <a href="#!/">Signup</a>
-      </li>
-      <li>
+      </div>
+      <div>
         <a href="#!/blog">Blog</a>
-      </li>
-      <li ng-show='isLoggedIn()'>
+      </div>
+      <div ng-show='isLoggedIn()'>
         <a href="#!/dashboard">Dashboard</a>
-      </li>
-      <li ng-controller='LogoutController' ng-if='isLoggedIn()'>
+      </div>
+      <div ng-controller='LogoutController' ng-if='isLoggedIn()'>
         <a role='button' href="" ng-click='logout()'>Logout</a>
-      </li>
-    </ul>
   </nav>
+  </div>
+  </div>
+  <div id="inputbox">
   <ng-view></ng-view>
+</div>
   <script src="js/app.js"></script>
   <script src="js/routes.js"></script>
   <script src="js/config/auth.config.js"></script>
