@@ -1,0 +1,8 @@
+<h1>{{ post.title }}</h1>
+<h3><small>{{ post.author.name }}</small></h3>
+<h6>Created: {{ post.created | date }} | Updated: {{ post.updated | date }} </h6>
+
+<hr>
+<blockquote>
+  {{post.body}}
+</blockquote>

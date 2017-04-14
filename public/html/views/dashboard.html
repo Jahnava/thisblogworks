@@ -1,0 +1,10 @@
+<a href="#!/create">Create A New Post</a>
+<hr>
+<ul>
+  <li ng-repeat='post in posts'>
+    {{ post.title }}
+    {{ post.body.slice(0, 100) + '...'}}
+    <button ng-click="edit(post)">E</button>
+    <button ng-click="delete(post)">&times;</button>
+  </li>
+</ul>
