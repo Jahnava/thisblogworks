@@ -49,7 +49,10 @@
   }
 
   input {
+    font-size: 30px;
     margin: 5px;
+    height: 40px;
+    width: 40%;
   }
 
 body {
@@ -68,4 +71,11 @@ body {
 
   a {
     display: inline;
+  }
+
+  textarea {
+    width: 800px ;
+    height:300px;
+    font-size: 18px;
+
   }
