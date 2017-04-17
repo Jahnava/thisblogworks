@@ -1,5 +1,5 @@
 (function() {
-    angular.module('mymeanblog')
+    angular.module('forum')
            .controller('LogoutController', LogoutController);
 
     LogoutController.$inject = ['$scope', 'UserService', '$location'];

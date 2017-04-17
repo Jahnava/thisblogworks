@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
          .controller('CreateController', CreateController);
 
   CreateController.$inject = ['$scope',

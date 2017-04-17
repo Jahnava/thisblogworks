@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
         .factory('UserService', UserService);
 
   UserService.$inject = ['$http', '$window'];

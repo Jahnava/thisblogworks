@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
       .factory('PostService', PostService);
 
   PostService.$inject = ['$http', 'UserService'];

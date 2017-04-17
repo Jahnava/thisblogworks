@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
         .controller('NavbarController', NavbarController);
 
   NavbarController.$inject = ['$scope', 'UserService'];
@@ -8,5 +8,5 @@
     $scope.isLoggedIn = UserService.isLoggedIn;
   }
 
-  
+
 }());

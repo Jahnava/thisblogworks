@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
         .controller('EditController', EditController);
 
   EditController.$inject = ['$scope', '$routeParams', 'PostService', '$location'];

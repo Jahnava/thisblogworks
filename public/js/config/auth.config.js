@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
         .run(AuthConfig);
 
   AuthConfig.$inject = ['UserService', '$location', '$rootScope'];

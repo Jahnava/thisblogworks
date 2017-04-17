@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
       .config(RouterConfig);
 
   RouterConfig.$inject = ['$routeProvider'];

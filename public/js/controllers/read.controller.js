@@ -1,5 +1,5 @@
 (function() {
-  angular.module('mymeanblog')
+  angular.module('forum')
          .controller('ReadController', ReadController);
 
   ReadController.$inject = ['$scope', '$routeParams', 'PostService'];
