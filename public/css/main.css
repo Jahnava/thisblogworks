@@ -49,10 +49,10 @@
   }
 
   input {
-    font-size: 30px;
+    font-size: 20px;
     margin: 5px;
     height: 30px;
-    width: 40%;
+    width: 50%;
   }
 
 body {
@@ -62,6 +62,7 @@ body {
   font-size: 30px;
   background-image:url('/images/springsnow.gif');
   background-size: cover;
+  cursor:url("/images/mouse.png"), default;
 
   }
 
@@ -83,4 +84,8 @@ body {
   button {
   border-color: blue;
   cursor: pointer;
+  }
+
+  .fb-like {
+    float: right;
   }
