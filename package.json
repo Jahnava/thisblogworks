@@ -1,7 +1,6 @@
 {
   "name": "learningportal",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +17,15 @@
     "mongoose": "^4.9.4",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jahnava/thisblogworks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jahnava/thisblogworks/issues"
+  },
+  "homepage": "https://github.com/Jahnava/thisblogworks#readme",
+  "description": ""
 }
