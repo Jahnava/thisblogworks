@@ -20,7 +20,7 @@ var postSchema = mongoose.Schema({
   author:{
     required: true,
     type: mongoose.Schema.Types.ObjectId
-  }
+  },
 });
 
 postSchema.pre('findOneAndUpdate', function(){
